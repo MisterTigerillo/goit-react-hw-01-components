@@ -8,7 +8,7 @@ export default function Statistics(props) {
       <ul className="stat-list">
         {loads.map(load => {
           return (
-            <li className="item">
+            <li className="item" key={load.id}>
               <span className="label">{load.label}</span>
               <span className="percentage">{load.percentage}</span>
             </li>

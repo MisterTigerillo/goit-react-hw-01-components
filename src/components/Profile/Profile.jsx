@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
-import defaultPic from "./default-avatar.png";
+import defaultPic from "../default-avatar.png";
+import styles from "./Profile.module.css";
 
 export default function Profile({
   username,
