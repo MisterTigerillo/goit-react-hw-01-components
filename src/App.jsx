@@ -1,8 +1,8 @@
+import { GlobalStyle } from "./GlobalStyle";
 import Profile from "./components/Profile/Profile";
 import Statistics from "./components/Statistics/Statistics";
 import FriendList from "./components/FriendList/FriendList";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
-import "./App.css";
 
 import user from "./json/user.json";
 import data from "./json/data.json";
@@ -12,6 +12,7 @@ import transactions from "./json/transactions.json";
 export default function App() {
   return (
     <div className="App">
+      <GlobalStyle />
       <Profile
         username={user.username}
         tag={user.tag}

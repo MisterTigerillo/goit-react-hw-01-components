@@ -1,0 +1,65 @@
+.profile {
+  margin: 15px auto;
+  width: 40%;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  background-color: #d4f0fe;
+  box-shadow: 1px 5px 10px -1px rgba(10, 67, 236, 0.3),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(14, 222, 142, 0.3);
+}
+
+.profileDescription {
+  /* width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  /* outline: 1px solid blue; */
+  margin: 15px auto;
+}
+
+.profileAvatar {
+  outline: 1px solid black;
+  display: flex;
+  /* flex-grow: 1; */
+  /* margin: 0 auto; */
+  border-radius: 50%;
+  align-self: flex-start;
+  width: 30%;
+  cursor: pointer;
+}
+
+.profileName {
+  margin-bottom: 10px;
+  font-size: 20px;
+  outline: 1px solid black;
+  align-self: flex-start;
+}
+.profileTag {
+  margin-bottom: 10px;
+}
+/* span {
+  display: block;
+} */
+li {
+  /* justify-content: center; */
+}
+.stats {
+  width: 100%;
+  outline: 2px solid red;
+  display: inline-flex;
+  justify-content: space-around;
+  /* margin: 0 auto; */
+}
+.statsElement {
+  display: block;
+}
+.statsLabel {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.statsQuantity {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
